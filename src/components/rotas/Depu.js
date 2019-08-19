@@ -10,9 +10,9 @@ useEffect(() => {
 const [items, setItems] = useState([]);
 
 const PesquisaDeputado = async () => {
-  const deputados = await fetch('https://dadosabertos.camara.leg.br/api/v2/deputados/');
-  const items = await deputados.json();
-  console.log(items.deputados);
+  const depu = await fetch('https://dadosabertos.camara.leg.br/api/v2/deputados/');
+  const items = await depu.json();
+  console.log(items.depu);
   setItems(items.dados)
 }
 
