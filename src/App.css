@@ -1,4 +1,12 @@
 .App {
   text-align: center;
 }
+.letras{
+  color: chocolate;
+  font-family: 'Times New Roman', Times, serif;
+}
 
+
+.fundo{
+  background-color: greenyellow;
+}

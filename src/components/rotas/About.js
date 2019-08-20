@@ -18,11 +18,12 @@ const PesquisaDeputad = async () => {
 
   return (
     <div className="Deputados">
+       <div className="paragrafo">
       <p>Nome Civil:<p>{item.nomeCivil}</p></p>
       <p>CPF:<p>{item.cpf}</p></p>
       <p>Sexo:<p>{'SEXO: ' + item.sexo}</p></p>
       <p>Data de Nascimento:<p>{item.dataNascimento}</p></p>
-    </div>
+    </div></div>
   );
 }
 

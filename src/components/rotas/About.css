@@ -2,4 +2,9 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: grey;
+    border-radius: 150px;
+}
+.paragrafo{
+    background-color: gainsboro;
 }

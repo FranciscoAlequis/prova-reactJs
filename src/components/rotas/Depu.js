@@ -23,7 +23,7 @@ const PesquisaDeputado = async () => {
         <p key={item.id}>
         <img className='foto' src={item.urlFoto}/>
         <br/>
-        <p>Dados do Deputado: <Link className="dec" to={`/deputados/${item.id}`}>{item.uriPartido}</Link></p>
+        <p className="paragrafo"><a>Dados Pessoais: </a><Link className="dec" to={`/deputados/${item.id}`}>{item.uriPartido}</Link></p>
         </p>
     ))}
     </div>
