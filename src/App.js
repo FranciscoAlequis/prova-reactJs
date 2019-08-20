@@ -6,15 +6,16 @@ import Navegation from './components/rotas/Navegation';
 import About from './components/rotas/About';
 
 function App() {
+  
   return (
     <BrowserRouter>
     <div className="fundo">
       <div className="App">
         <Route path='/' component={Navegation}/>
+        <body className="body"><h1 className="letras">PROVA REACTJS: DEPUTADOS LIST</h1></body>
         <Route path='/deputados' exact component={Depu}/>
         <Route path='/sobre' exact component={About}/>
         <Route path='/deputados/:id' component={About}/>
-        <body className="body"><h1 className="letras">PROVA REACTJS: DEPUTADOS LIST</h1></body>
       </div></div>
     </BrowserRouter>
   );

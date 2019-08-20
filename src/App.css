@@ -6,7 +6,8 @@
   font-family: 'Times New Roman', Times, serif;
 }
 
-
 .fundo{
+  display: flex;
+  flex-direction: column;
   background-color: greenyellow;
 }

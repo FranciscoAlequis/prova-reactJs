@@ -1,10 +1,13 @@
-.Deputados{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-color: grey;
-    border-radius: 150px;
-}
+
 .paragrafo{
     background-color: gainsboro;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+span{
+    color: darkgreen;
+}
+p{
+    color: black;
 }

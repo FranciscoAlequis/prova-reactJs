@@ -20,10 +20,12 @@ const PesquisaDeputado = async () => {
   return (
     <div className="Deputados">
       {items.map(item => (
-        <p key={item.id}>
+        <p className="paragrafo" key={item.id}>
         <img className='foto' src={item.urlFoto}/>
         <br/>
-        <p className="paragrafo"><a>Dados Pessoais: </a><Link className="dec" to={`/deputados/${item.id}`}>{item.uriPartido}</Link></p>
+        <p className="p"><a>Dados Pessoais: </a><Link className="dec" to={`/deputados/${item.id}`}>{item.uriPartido}</Link></p>
+        <p className="p"><a>Partido: <br/></a><Link className="dec" to={`/deputados/${item.id}`}>{item.siglaPartido}</Link></p>
+        <p className="p"><a>Nome: <br/></a><Link className="dec" to={`/deputados/${item.id}`}>{item.nome}</Link></p>
         </p>
     ))}
     </div>
